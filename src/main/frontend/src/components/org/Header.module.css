@@ -1,0 +1,21 @@
+.header {
+    display: block;
+    text-align: center;
+    padding: 2vh 2vw;
+    background: black;
+    color: white;
+    font-weight: bold;
+    position: fixed;
+    top: 0;
+    width: 96vw;
+}
+.nav {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav li {
+    width: auto;
+}

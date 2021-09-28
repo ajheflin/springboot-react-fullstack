@@ -1,0 +1,59 @@
+.login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+.login input:not([type='submit']):not([type='radio']) {
+    width: 75%;
+    margin: 40px auto;
+    display: block;
+    font-size: 2em;
+    border: none;
+    background: none;
+    outline: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding: 2%;
+    border-bottom: 3px solid white;
+    -webkit-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out;
+    color: white;
+}
+.login input:not([type='submit']):not([type='radio']):hover, .login input:not([type='submit']):not([type='radio']):active, .login input:not([type='submit']):not([type='radio']):focus {
+    padding-left: 3%;
+    width: 74%;
+    border-bottom-color: #4797db;
+}
+.login input:not([type='submit']):not([type='radio'])::placeholder, .login input:not([type='submit']):not([type='radio'])::placeholder, .login input:not([type='submit']):not([type='radio'])::placeholder {
+    color: rgba(255,255,255, 0.6);
+    -webkit-transition: .3s all ease-in-out;
+    -o-transition: .3s all ease-in-out;
+    transition: .3s all ease-in-out;
+}
+.login input:not([type='submit']):not([type='radio']):hover::placeholder, .login input:not([type='submit']):not([type='radio']):active::placeholder, .login input:not([type='submit']):not([type='radio']):focus::placeholder {
+    color: rgba(71,151,219, 0.6)
+}
+.login input[type="submit"] {
+    display: block;
+    margin: 0 auto;
+    background-color: #4797db;
+    color: white;
+    padding: 1% 4%;
+    font-size: 2em;
+    border: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    cursor: pointer;
+    -webkit-transition: .3s all ease-out;
+    -o-transition: .3s all ease-out;
+    transition: .3s all ease-out;
+}
+.login input[type="submit"]:hover {
+    background: #45aa37;
+}
